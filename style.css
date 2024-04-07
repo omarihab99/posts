@@ -1,0 +1,35 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.tab{
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    height: 50px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+div{
+    display: flex;
+    width: 30%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px lightslategray;
+    align-items: center;
+    justify-content: center;    
+    font-size: larger;
+    padding: 5px;
+    text-align: center;
+}
